@@ -6,7 +6,7 @@ import com.adam.shopping.Cart;
 import com.adam.shopping.Goods;
 import com.adam.shopping.Inventory;
 import com.adam.shopping.Person;
-import io.cucumber.core.api.Scenario;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;

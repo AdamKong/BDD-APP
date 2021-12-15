@@ -17,8 +17,9 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = {"classpath:feature/cart/add_cellphone_to_cart_datatable_list.feature"},
         glue = {"com.adam.test.defs.datatable.list", "com.adam.test.types.datatable.list"},
-//        plugin = "html:target/report/cucumber_datatable_list.html",
-        plugin = {"me.jvt.cucumber.report.PrettyReports:target/3pt/cucumber" },
+//      plugin = "html:target/report/cucumber_datatable_list.html",
+//        plugin = { "me.jvt.cucumber.report.PrettyReports:target/report/3pt/cucumber-me" },
+        plugin = { "de.monochromata.cucumber.report.PrettyReports:target/report/3pt/cucumber" },
         tags = {"@example2"}
 )
 public class AddToCartDatatableListTestRunner {
